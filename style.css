@@ -1,0 +1,111 @@
+html, body {
+    margin:0;
+    padding: 0;
+    background-image: url(./assets/sapo\ frog.jpg) ;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.logoAlura {
+    margin-left: 10px;
+    margin-top: 10px;
+    width:3%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #E5E5E5;
+    margin-top: 90px;
+    text-transform: lowercase;
+    font-size: 32px; 
+    resize: none;
+    background-color: transparent;
+    outline: none;
+}
+
+::placeholder {
+    color:red;
+    .text-area:focus{
+        outline: none;
+    }
+}
+
+.mensagem {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    font-size: 32px;
+    resize: none;
+
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+    gap: 24px;
+}
+
+.btn-encriptar, .btn-desincriptar, .btn-copiar {
+    border: 1px solid black;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 18px; 
+}
+.btn-encriptar {
+    background-color: transparent;
+    color: white;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desincriptar {
+    background-color:transparent;
+    color:white;
+    height: 64px;
+    width: 328px;
+}
+
+.btn-copiar {
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+    background-color: transparent;
+    color: white
+}
+
+.informaçao {
+    color: white;
+    font-size: 17px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    border: 1px solid red;
+    background-color: red;
+    font-family:"Inter", sans-serif;
+    color: #E5E5E5;
+    font-weight: 400;
+}
